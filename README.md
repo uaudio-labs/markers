@@ -19,7 +19,9 @@ Choose **Add Ons > Browsers > Markers**. It opens as a panel in LUNA's secondary
 no session open, it says so; open one in LUNA and the list fills in.
 
 Each row shows the marker's number, color, name and comment, location, and the length to the
-next marker. The marker the playhead is in is marked in amber.
+next marker. The marker the playhead is in is marked in amber, and the playhead's position
+shows beside the marker tools. Drag the **Location** and **Length** column dividers to resize
+them; double-click a divider to reset it.
 
 ### Add and move around
 
@@ -30,7 +32,7 @@ next marker. The marker the playhead is in is marked in amber.
 ### Select
 
 - **Click** a marker to select it and put LUNA's edit selection on it. With **Click to
-  locate** on (in the **…** menu), the playhead moves there too.
+  locate** on (in the **•••** menu), the playhead moves there too.
 - **Shift+click** a marker to extend the selection through it to the next marker. Click a
   marker and Shift+click it again to select from it to the next one; Shift+click a later
   marker to select through that one.
@@ -56,7 +58,7 @@ do. Each edit is one undo step in LUNA, including changes to several markers at 
 - Filter the list by name, comment or number.
 - **Bars** / **Time** shows locations in bars and beats or in minutes and seconds.
 - **Pos** / **A–Z** sorts by position or by name.
-- The **…** menu has **Follow playhead** (keeps the current marker in view during playback),
+- The **•••** menu has **Follow playhead** (keeps the current marker in view during playback),
   **Add at selection start**, **Renumber auto-named markers**, **Select all** and **Clear all
   markers…**.
 - **Delete** removes the selected markers and **Cmd+D** (Ctrl+D) duplicates them.
